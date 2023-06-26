@@ -1,0 +1,24 @@
+.postTrajet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  background: #057d89;
+}
+
+.map {
+  height: 740px;
+  width: 700px;
+  background: #04bfad;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.map .map-image {
+  height: 711px;
+  width: 670px;
+  border-radius: 20px;
+  background: url('../../../assets/img/Rectangle34.png') center/cover;
+  margin: auto;
+}

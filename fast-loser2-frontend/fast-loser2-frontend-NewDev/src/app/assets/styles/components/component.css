@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@tailwind components;
+
+@layer components {
+
+    #root{
+        @apply h-full w-full
+    }
+
+    /* LINKS */
+    .link {
+        @apply text-base font-medium text-gray-500 cursor-pointer hover:text-primary;
+    }
+
+    /* GEOMETRY */
+    .point{
+        @apply w-4 h-4 p-2 mt-2 rounded-full;
+    }
+
+/* BODY */
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+/*  FIN BODY  */
+}

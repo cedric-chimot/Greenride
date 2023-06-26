@@ -1,0 +1,189 @@
+.rideSearch-container {
+  background: #057d89;
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.rideSearch h1 {
+  margin: 0px;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+#musique select {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #057d89;
+  font-weight: b;
+}
+
+#notes {
+  text-align: left;
+}
+
+#date-hour input {
+  width: fit-content;
+}
+
+.rideSearch .label-input-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 95%;
+}
+
+.rideSearch .label-input-container input {
+  width: 60%;
+}
+
+.bagage-label-input {
+  border: 1px solid white;
+  padding-left: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bagage-label-input label {
+  margin-right: 10px;
+}
+
+.bagage-label-input select,
+#places select {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.rideSearch .label-input-container label {
+  text-align: left;
+}
+.rideSearch .label-input-container input[type='text'] {
+  width: 100%;
+}
+
+.bagage-label-input-container {
+  display: flex;
+  margin: 0px auto;
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+#grandBagage {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#places {
+  display: flex;
+  justify-content: start;
+}
+
+.map-search {
+  height: 740px;
+  width: 700px;
+  background: #04bfad;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-search .map-image {
+  height: 288px;
+  width: 670px;
+  border-radius: 20px;
+  background: url('../../../assets/img/Rectangle34.png') center/cover;
+  margin: auto;
+}
+
+.ride-container ul {
+  padding: 0;
+  width: 95%;
+  margin: auto;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.ride-container ul::-webkit-scrollbar {
+  width: 10px;
+}
+.ride-container ul::-webkit-scrollbar-track {
+  width: 5px;
+}
+.ride-container ul::-webkit-scrollbar-thumb {
+  width: 5px;
+  margin: auto;
+  border-left: 4px solid transparent;
+  padding: 0 4px;
+  border-right: 4px solid transparent;
+
+  background: #04bfad;
+  border-radius: 20px;
+}
+
+.map-search .ride-container li {
+  display: grid;
+  grid-template-columns: 1fr 157px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background: #04bfad;
+}
+
+.map-search .ride-container li .ride-infos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+  padding-left: 60px;
+  height: 116px;
+}
+
+.ride-container-2 {
+  background: #057d89;
+  width: 670px;
+  margin: auto;
+}
+
+#trajet {
+  background: #04bfad;
+  margin: 5px;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+  border-radius: 5px;
+  color: black;
+}
+
+.map-search .ride-container li .ride-car-img {
+  height: 109px;
+  width: 147px;
+  margin: auto;
+  background: red;
+  border-radius: 5px;
+}
+
+.pseudo-userImg-container {
+  display: flex;
+  align-items: center;
+}
+
+.userImg {
+  height: 31px;
+  width: 31px;
+  background: red;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+/* 
+  .ride-infos-container p {
+    margin: 10px 0px;
+  } */
