@@ -4,7 +4,7 @@
 
  Site de covoiturage créer en équipe de 6/8 personnes avec React et Symfony via une API.
  
- Les utilisateurs inscrits postent des trajets s'il son véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens,
+ Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens,
  en quelque sorte la "monnaie" du site.
  
  1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteurs est crédité des
