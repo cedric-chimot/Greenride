@@ -20,7 +20,7 @@ Au niveau du tableau de bord, j'ai créé une sidebar pour renvoyer aux différe
 qui affiche l'identité de la personne connectée.
 
 Dès qu'il se connecte, il est envoyé sur cette page directement. Les blocs affichent les utilisateurs inscrits, les alertes ou encore les messages
-directement depuis la base de données. IL y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
+directement depuis la base de données. Il y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
 
 Le tableau de bord :
 
