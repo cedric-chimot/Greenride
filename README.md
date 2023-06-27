@@ -7,8 +7,9 @@
  Les utilisateurs inscrits postent des trajets s'il son véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens,
  en quelque sorte la "monnaie" du site.
  
- 1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteurs est crédité des tokens utilisés par 
- son/ses passager(s). Ils ont la possibilité de vendre leur tokens non utilisés, par exemple si un utilisateur est juste conducteur mais jamais passager.
+ 1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteurs est crédité des
+ tokens utilisés par son/ses passager(s). Ils ont la possibilité de vendre leur tokens non utilisés, par exemple si un utilisateur est juste
+ conducteur mais jamais passager.
 
  Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe.
 
@@ -30,6 +31,8 @@ J'ai participé à la création de différents formulaires, insription connexion
 
 ![inscription-green](https://github.com/cedric-chimot/Greenride/assets/106061524/614693a0-e474-443e-a7b2-8986b9a37d71)
 
+![contact-green](https://github.com/cedric-chimot/Greenride/assets/106061524/b95086af-7275-4097-9ce7-8e0cf2cc54cc)
 
 Dans cahier des charges, il nous était demandé de créer un sytème d'échange de tokens. Pour cela, j'ai eu l'idée de mettre en place un système d'annonce achat/vente
-pour que les utilisateurs puissent poster des annonces ou réaliser des transactions. Un de mes camarades à par la suite relier le tout à Stripe pour la validation des transactions.
+pour que les utilisateurs puissent poster des annonces ou réaliser des transactions. Un de mes camarades à par la suite relier le tout à Stripe pour la validation
+des transactions.
