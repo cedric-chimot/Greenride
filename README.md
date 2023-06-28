@@ -1,14 +1,14 @@
 # GREENRIDE - PROJET INCUBATEUR
 	
-1-	Introduction
+1- Introduction
 	
-      1.1 Qu'est-ce que l'incubateur du numérique
+1.1 Qu'est-ce que l'incubateur du numérique
 
 À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé Incubateur du 		numérique.
 Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en 		appliquant les compétences acquises en formation grâce à des projets concrets.
 J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant 	dans un environnement semblable au monde de l’entreprise.
 
-      1.2 Les missions
+1.2 Les missions
 
 Hard skills et expertise technique :
 
@@ -25,21 +25,12 @@ Soft skills, posture métier et entretien :
 - Correction des lacunes et acquisition d'expérience pratique
 - Mise en valeur d'une première expérience sur le CV
 
-  
+2- Le projet
 
+Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
+1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteur est crédité des tokens utilisés par son/ses passager(s). Ils ont la possibilité de vendre leur tokens non utilisés, par exemple si un utilisateur est juste conducteur mais jamais passager.
 
-
-
-
-
-
- 
- Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens,
- en quelque sorte la "monnaie" du site.
- 
- 1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteurs est crédité des
- tokens utilisés par son/ses passager(s). Ils ont la possibilité de vendre leur tokens non utilisés, par exemple si un utilisateur est juste
- conducteur mais jamais passager.
+5- La création du site
 
  Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe.
 
