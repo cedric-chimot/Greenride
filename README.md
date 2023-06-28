@@ -79,7 +79,7 @@ De ce MCD, j'ai pour obtenir le MLD (Modèle Logique de Données). Les entités 
 
 ![mld-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4f81fd3b-9db0-4681-bd01-bd7ce583141e)
 
-De la mêmemanière que la maquette ces MCD/MLD ont servi de base à la création de notre base de données. Au fur et à mesure de nos réflexions et de nos besoins, celle-ci a fortement évolué et d'autres tables sont venues s'ajouter au modèle de base.
+De la même manière que la maquette ces MCD/MLD ont servi de base à la création de notre base de données. Au fur et à mesure de nos réflexions et de nos besoins, celle-ci a fortement évolué et d'autres tables sont venues s'ajouter au modèle de base.
 
 Voici en image la version finale de la base de données : 
 
