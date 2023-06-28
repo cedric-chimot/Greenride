@@ -167,7 +167,7 @@ _- Proposition de trajet :_
 
 ![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)
 
-L'utilisateur propose ici un ou plusieurs trajet en indiquant différentes informations.
+L'utilisateur propose ici un ou plusieurs trajets en indiquant différentes informations.
 
 _- Page de présentation d'un trajet :_
 
