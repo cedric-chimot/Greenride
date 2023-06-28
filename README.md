@@ -239,7 +239,7 @@ Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateu
 
 _5.3.4 Conclusions_
 
-Ces différents exemple démontre les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
+Ces différents exemple démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
 
 # 6- Conclusion générale
 
