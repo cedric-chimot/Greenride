@@ -143,13 +143,29 @@ _5.3 Autres pages du site_
 
 Voici le rendu de différentes pages du site dans leur version finale :
 
-Page de profil de l'utilisateur connecté :
+_- Page de profil de l'utilisateur connecté :_
+
 ![profil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e6ff272d-a16c-44dd-a3e5-103a5a38a705)
+
+L'utilisateur dispose de plusieurs options, comme la modification de son profil, de son véhicule, le nombre de tokens à sa disposition ainsi qu'une liste exhaustive de ses trajets postés. IL peut tous les afficher en cliquant sur le bouton "voir plus".
+
+_- Historique des trajets :_
+
+![trajet3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1812e0d3-1781-4fdb-9a99-ca34e7e16175)
+
+Sur cette page, on affiche tous les trajets proposés par l'utilisateur ainsi que les réservations en attente de validation ou efectuées. IL peut aussi voir les réservations qu'il a fait sur les trajets des autres utilisateurs.
+
+_- Page de modification de profil :_
+
 ![profil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/5e1fdbf7-08de-4e96-872b-01ed4e48b893)
-![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c6bdaf39-d552-4f3d-b117-14b10bd50342)![profil3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/d26e42f3-1225-4b1f-aa1d-64a2d47875aa)
-![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6e98e5b2-a98a-49cf-902d-b429395e1215)
+
+L'utilisateur peut ici modifier ses informations personnelles.
+
+_Proposition de trajet :_
+
 ![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)
 ![trajet1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/81ea9261-b17f-4955-93e2-5d0ea4bc4796)
-![trajet2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9aee3bd5-f7d5-4dc7-8b9f-5907977c8b22)
-
+![trajet2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/02ab189c-197e-474e-a3af-88c3314ad4cd)
+![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c6bdaf39-d552-4f3d-b117-14b10bd50342)![profil3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/d26e42f3-1225-4b1f-aa1d-64a2d47875aa)
+![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6e98e5b2-a98a-49cf-902d-b429395e1215)
 
