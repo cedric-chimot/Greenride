@@ -230,3 +230,18 @@ _- La vue d'une alerte :_
 ![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
 
 L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement.
+
+_- Les statistiques :_
+
+![admin4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9318fc0e-bb98-48ca-8d3b-d50627241575)
+
+Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateurs, les tokens consommés. Celles-ci évoluent en direct en fonction des données de la base de données.
+
+_5.3.4 Conclusions_
+
+Ces différents exemple démontre les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
+
+# 6- Conclusion générale
+
+L'incubateur fut pour moi une excellente expérience. Cela m'a permis de gagner en compétence et en assurance.
+J'ai aussi pu travailler en équipe dans de vraies conditions de travail. Par rapport à ma formation, le fait d'avoir pu échanger nos idées, de les confronter m'a conforté dans mon envie de poursuivre dans ce métier.
