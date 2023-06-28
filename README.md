@@ -28,7 +28,7 @@ Soft skills, posture métier et entretien :
 # 2- Le projet
 
 Le projet Greenride est un site de covoiturage. Il faisait parti des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.
-Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
+Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Il fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
 Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager.
 Par exemple lorsqu’un conducteur prend un passager pour un trajet de 20km il gagne 20 tokens et le passager consomme 20 tokens. A l’inscription l’utilisateur a un crédit de 50 tokens, et pour les personnes ne possédant
 pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour vendre mes tokens aux autres utilisateurs sera mis en place.
@@ -89,9 +89,11 @@ Ceci est le rendu du modèle obtenu avec PhpMyadmin. On peut voir les nombreux a
 
 # 5- La création du site
 
- Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe.
+_5.1 Accueil et Dasboard administrateur_
 
- La page d'accueil du site :
+Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe. Il est proposé différentes vues selon que l'on soit simple utilisateur ou administrateur, on peut simplement être visiteur cependant, de nombreuses pages sont inaccessible si l'on est pas inscrit ou connecté.
+
+La page d'accueil du site :
  
 ![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)
 
@@ -104,6 +106,8 @@ directement depuis la base de données. Il y a aussi des statistiques qui évolu
 Le tableau de bord :
 
 ![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
+
+_5.2 Exemple de tâches effectuées_
 
 J'ai participé à la création de différents formulaires, insription connexion etc... 
 
@@ -128,3 +132,24 @@ Toutes les annonces peuvent être retrouvées sur la page dédiée, on ne trouve
 Le récapitulatif des annonces : 
 
 ![annonces1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a5f81542-24e5-4d39-aa8b-639164cef4a1)
+
+Lorsque l'on souhaite acheter des tokens, un pop-up apparait sur l'écran afin de valider ou non la transaction. Celle-ci est liée à Stripe, une API qui traite les paiements en ligne.
+
+![annonces2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6d6003db-d7c8-455d-901e-3b4e7932bd2b)
+
+Les tokens sont directement crédités lors de la validation de la transaction.
+
+_5.3 Autres pages du site_
+
+Voici le rendu de différentes pages du site dans leur version finale :
+
+Page de profil de l'utilisateur connecté :
+![profil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e6ff272d-a16c-44dd-a3e5-103a5a38a705)
+![profil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/5e1fdbf7-08de-4e96-872b-01ed4e48b893)
+![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c6bdaf39-d552-4f3d-b117-14b10bd50342)![profil3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/d26e42f3-1225-4b1f-aa1d-64a2d47875aa)
+![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6e98e5b2-a98a-49cf-902d-b429395e1215)
+![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)
+![trajet1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/81ea9261-b17f-4955-93e2-5d0ea4bc4796)
+![trajet2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9aee3bd5-f7d5-4dc7-8b9f-5907977c8b22)
+
+
