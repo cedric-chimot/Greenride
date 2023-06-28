@@ -11,15 +11,15 @@ J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagne
 	b)	Les missions
 
 	Hard skills & expertise technique
-
-•	Véritable accélérateur de compétences grâce au travail en mode projet et parrainage
-•	Accompagnement personnalisé dans le développement de votre pratique professionnelle
-•	Développement du « background » technique au travers la réalisation de projets professionnels
+ 
+ 	- Véritable accélérateur de compétences grâce au travail en mode projet et parrainage
+	- Accompagnement personnalisé dans le développement de votre pratique professionnelle
+	- Développement du « background » technique au travers la réalisation de projets professionnels
 		- Réalisation d’un projet complet en mode collaboratif (ex: site e-Commerce)
 		- Travail en mode Agile
 		- Immersion professionnelle
-•	Accompagnement éventuel pour le passage des certifications (Titre Professionnel du Ministère du Travail)
-•	Retour d’expériences par les professionnels du numérique
+  	- Accompagnement éventuel pour le passage des certifications (Titre Professionnel du Ministère du Travail)
+   	- Retour d’expériences par les professionnels du numérique
 
 	Soft skills, posture métier & entretiens
 
