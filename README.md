@@ -93,7 +93,7 @@ _5.1 Accueil et Dasboard administrateur_
 
 Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe. Il est proposé différentes vues selon que l'on soit simple utilisateur ou administrateur, on peut simplement être visiteur cependant, de nombreuses pages sont inaccessible si l'on est pas inscrit ou connecté.
 
-La page d'accueil du site :
+_- La page d'accueil du site :_
  
 ![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)
 
@@ -103,7 +103,7 @@ qui affiche l'identité de la personne connectée.
 Dès qu'il se connecte, il est envoyé sur cette page directement. Les blocs affichent les utilisateurs inscrits, les alertes ou encore les messages
 directement depuis la base de données. Il y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
 
-Le tableau de bord :
+_- Le tableau de bord :_
 
 ![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
 
@@ -115,8 +115,8 @@ J'ai participé à la création de différents formulaires, insription connexion
 
 ![contact-green](https://github.com/cedric-chimot/Greenride/assets/106061524/b95086af-7275-4097-9ce7-8e0cf2cc54cc)
 
-Dans cahier des charges, il nous était demandé de créer un sytème d'échange de tokens. Pour cela, j'ai eu l'idée de mettre en place un système d'annonce achat/vente
-pour que les utilisateurs puissent poster des annonces ou réaliser des transactions. Un de mes camarades à par la suite relier le tout à Stripe pour la validation
+Dans le cahier des charges, il nous était demandé de créer un sytème d'échange de tokens. Pour cela, j'ai eu l'idée de mettre en place un système d'annonce achat/vente
+pour que les utilisateurs puissent poster des annonces ou réaliser des transactions. Un de mes camarades a par la suite relié le tout à Stripe pour la validation
 des transactions.
 
 La page d'ajout se présente comme suit : 
@@ -147,13 +147,13 @@ _- Page de profil de l'utilisateur connecté :_
 
 ![profil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e6ff272d-a16c-44dd-a3e5-103a5a38a705)
 
-L'utilisateur dispose de plusieurs options, comme la modification de son profil, de son véhicule, le nombre de tokens à sa disposition ainsi qu'une liste exhaustive de ses trajets postés. IL peut tous les afficher en cliquant sur le bouton "voir plus".
+L'utilisateur dispose de plusieurs options, comme la modification de son profil, de son véhicule, le nombre de tokens à sa disposition ainsi qu'une liste exhaustive de ses trajets postés. Il peut tous les afficher en cliquant sur le bouton "voir plus".
 
 _- Historique des trajets :_
 
 ![trajet3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1812e0d3-1781-4fdb-9a99-ca34e7e16175)
 
-Sur cette page, on affiche tous les trajets proposés par l'utilisateur ainsi que les réservations en attente de validation ou efectuées. IL peut aussi voir les réservations qu'il a fait sur les trajets des autres utilisateurs.
+Sur cette page, on affiche tous les trajets proposés par l'utilisateur ainsi que les réservations en attente de validation ou efectuées. Il peut aussi voir les réservations qu'il a fait sur les trajets des autres utilisateurs.
 
 _- Page de modification de profil :_
 
@@ -161,11 +161,27 @@ _- Page de modification de profil :_
 
 L'utilisateur peut ici modifier ses informations personnelles.
 
-_Proposition de trajet :_
+_- Proposition de trajet :_
 
 ![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)
-![trajet1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/81ea9261-b17f-4955-93e2-5d0ea4bc4796)
-![trajet2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/02ab189c-197e-474e-a3af-88c3314ad4cd)
-![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c6bdaf39-d552-4f3d-b117-14b10bd50342)![profil3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/d26e42f3-1225-4b1f-aa1d-64a2d47875aa)
-![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6e98e5b2-a98a-49cf-902d-b429395e1215)
+
+L'utilisateur propose ici un ou plusieurs trajet en indiquant différentes informations.
+
+_- Page de présentation d'un trajet :_
+
+![trajet5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3c6b27c5-1ada-4c49-a594-667e25daaae8)
+
+L'utilisateur peut voir ici les différentes informations concernant un trajet. Il peut le réserver en appuyant sur le bouton, un pop-up apparait alors. En cliquant sur le nom de la personne qui a ajouté le trajet, il a accès au profil de cet utilisateur. Il peut aussi voir dans un encadré le kilométrage et l'itinéraire du trajet.
+
+_- Pop-up de réservation :_
+
+![trajet4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/7d382a2c-c807-42ed-a6d2-96288ff7ba7a)
+
+On peut voir ici le coût en tokens du trajet. Bien évidemment, si l'utilisateur ne possède pas suffisamment de tokens, le texte de validation évolue et il est impossible de confirmer sa réservation.
+
+_- Profil autre utilisateur :_
+
+![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)
+
+On peut voir ici toute les informations
 
