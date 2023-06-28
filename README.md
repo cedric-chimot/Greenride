@@ -14,7 +14,7 @@ Hard skills et expertise technique :
 
 - Travail en mode projet et parrainage
 - Accompagnement personnalisé dans le développement de la pratique professionnelle
-- Développement du "background" technique au travers de la réalisation de projets professionnels
+- Développement du "background" technique au travers de la réalisation de projets professionnels (réalisation d'un projet complet, méthode Agile, immersion professionnelle
 
 
 
