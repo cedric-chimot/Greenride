@@ -2,13 +2,13 @@
 	
 # 1- Introduction
 	
-_1.1 Qu'est-ce que l'incubateur du numérique_
+# _1.1 Qu'est-ce que l'incubateur du numérique_
 
 À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé Incubateur du numérique.
 Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.
 J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.
 
-_1.2 Les missions_
+# _1.2 Les missions_
 
 Hard skills et expertise technique :
 
@@ -89,7 +89,7 @@ Ceci est le rendu du modèle obtenu avec PhpMyadmin. On peut voir les nombreux a
 
 # 5- La création du site
 
-_5.1 Accueil et Dasboard administrateur_
+# _5.1 Accueil et Dasboard administrateur_
 
 Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe. Il est proposé différentes vues selon que l'on soit simple utilisateur ou administrateur, on peut simplement être visiteur cependant, de nombreuses pages sont inaccessible si l'on est pas inscrit ou connecté.
 
@@ -107,7 +107,7 @@ _- Le tableau de bord :_
 
 ![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
 
-_5.2 Exemple de tâches effectuées_
+# _5.2 Exemple de tâches effectuées_
 
 J'ai participé à la création de différents formulaires, insription connexion etc... 
 
@@ -139,7 +139,9 @@ Lorsque l'on souhaite acheter des tokens, un pop-up apparait sur l'écran afin d
 
 Les tokens sont directement crédités lors de la validation de la transaction.
 
-_5.3 Autres pages du site_
+# _5.3 Autres pages du site_
+
+_5.3.1 Pages utilisateurs_
 
 Voici le rendu de différentes pages du site dans leur version finale :
 
@@ -183,5 +185,48 @@ _- Profil autre utilisateur :_
 
 ![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)
 
-On peut voir ici toute les informations
+On peut voir ici toute les informations d'un utilisateur. On peut luis envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
 
+_- Pop-up d'avis :_
+
+![profil4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1c7deb56-9639-4afc-be72-52a2b1d6d624)
+
+_- Composant message :_
+
+![profil5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4d4d052a-6c19-40f0-886d-14e85c6bc90a)
+
+On peut envoyer directement un message à l'utilisateur. Lorsqu'il le reçoit, une notification apparait au niveau de la petite cloche en haut à droite sur la navbar. Celle-ci indique toutes notifications reçues : réservations, achat, message etc...
+
+_- Page d'alerte :_
+
+![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2fec4371-6e71-4359-978a-672362b49401)
+
+La page de signalement avec la possibilité de choisir la raison parmi une liste ou d'indiquer le motif soit même.
+
+_5.3.2 Pages Administrateurs_
+
+Voici quelques pages de la partie administrateur.
+
+_- La liste des utilisateurs :_
+
+![admin-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ac8f5f31-0540-4c4f-90e8-e384ba20ec1d)
+
+L'admin peut voir le profil de l'utilisateur ou le supprimer.
+
+_- Le profil d'un utilisateur en vue admin :_
+
+![admin1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2c35837b-c164-4313-82e3-84648e881b2e)
+
+_- La liste des trajets postés :_
+
+![admin5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e53e7283-d420-493c-8d7b-09ec1c9a8173)
+
+_- La vue d'un trajet :_
+
+![admin2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/562387b8-c5dc-4004-98ba-9d753a170e59)
+
+_- La vue d'une alerte :_
+
+![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
+
+L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement.
