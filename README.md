@@ -9,8 +9,8 @@ Celui-ci permet de mettre en application ce qui a été vu en formation à trave
 J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.
 
 	1.2 Les missions
- 
- 	Hard skills & expertise technique :
+
+ 	Hard skills et expertise technique :
  
  	- Véritable accélérateur de compétences grâce au travail en mode projet et parrainage
 	- Accompagnement personnalisé dans le développement de votre pratique professionnelle
