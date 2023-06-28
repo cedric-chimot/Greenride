@@ -35,6 +35,18 @@ pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour 
 
 _Technologies utilisées :_
 
+- HTML
+- CSS
+- Javascript
+- React
+- Symfony via une API Rest
+- Tailwind
+- MySql
+- Looping
+- Stripe
+- Leaflet
+- Figma
+- Jira
 
 # 3- Conception et maquettage du site
 
@@ -55,6 +67,25 @@ Sur les différentes images, il est possible de voir les pages telles qu'elles o
 
 _Exemple :_
 Pour les formulaires (inscription, connexion etc...), nous avons choisi de les uniformisés afin qu'ils soient les plus optimisés possible en créant par exemple un composant pour les inputs de façon à ce qu'ils soient tous de taille indentique.
+
+# 4- Création de la base de données
+
+Pour la gestion du back-end, il a fallu créer une base de données. Le point de départ de celle-ci est la création du MCD (Modèle Conceptuel de Données) que j'ai réalisé sur Looping, un logiciel de modélisation conceptuelle de données.
+
+![mcd-green](https://github.com/cedric-chimot/Greenride/assets/106061524/aaff7300-07d4-4b4c-b52e-6c7570e7acb9)
+
+On peut voir sur l'image les différentes entités ainsi que les relations entre elles.
+De ce MCD, j'ai pour obtenir le MLD (Modèle Logique de Données). Les entités sont devenues des tables et sur l'image on peut voir que les relations ont créé des "clés étrangères", faisant référence aux identifiants des autres tables auxquelles elles sont liées.
+
+![mld-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4f81fd3b-9db0-4681-bd01-bd7ce583141e)
+
+De la mêmemanière que la maquette ces MCD/MLD ont servi de base à la création de notre base de données. Au fur et à mesure de nos réflexions et de nos besoins, celle-ci a fortement évolué et d'autres tables sont venues s'ajouter au modèle de base.
+
+Voici en image la version finale de la base de données : 
+
+![BDD-green](https://github.com/cedric-chimot/Greenride/assets/106061524/146fe70c-e3c6-4c6c-9e22-26e92889fc8f)
+
+Ceci est le rendu du modèle obtenu avec PhpMyadmin. On peut voir les nombreux ajouts proposés, le tout ayant été bien entendu réfléchi en fonction du cahier des charges. Par exemple, le système d'annonces pour acheter des tokens a donné lieu à la création d'une table dédiée.
 
 # 5- La création du site
 
