@@ -1,6 +1,6 @@
 # GREENRIDE - PROJET INCUBATEUR
 	
-1- Introduction
+# 1- Introduction
 	
 1.1 Qu'est-ce que l'incubateur du numérique
 
@@ -25,7 +25,7 @@ Soft skills, posture métier et entretien :
 - Correction des lacunes et acquisition d'expérience pratique
 - Mise en valeur d'une première expérience sur le CV
 
-2- Le projet
+# 2- Le projet
 
 Le projet Greenride est un site de covoiturage. Il faisait parti des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.
 Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
@@ -33,9 +33,9 @@ Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuven
 Par exemple lorsqu’un conducteur prend un passager pour un trajet de 20km il gagne 20 tokens et le passager consomme 20 tokens. A l’inscription l’utilisateur a un crédit de 50 tokens, et pour les personnes ne possédant
 pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour vendre mes tokens aux autres utilisateurs sera mis en place.
 
-3- Conception et maquettage du site
+# 3- Conception et maquettage du site
 
-5- La création du site
+# 5- La création du site
 
  Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe.
 
