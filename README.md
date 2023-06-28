@@ -27,8 +27,11 @@ Soft skills, posture métier et entretien :
 
 2- Le projet
 
-Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
-1 kilomètre correspond à 1 token. Les utilisateurs consomment ces tokens quand ils participent aux trajets, le conducteur est crédité des tokens utilisés par son/ses passager(s). Ils ont la possibilité de vendre leur tokens non utilisés, par exemple si un utilisateur est juste conducteur mais jamais passager.
+Le projet Greenride est un site de covoiturage. Il faisait parti des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.
+Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
+Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager.
+Par exemple lorsqu’un conducteur prend un passager pour un trajet de 20km il gagne 20 tokens et le passager consomme 20 tokens. A l’inscription l’utilisateur a un crédit de 50 tokens, et pour les personnes ne possédant
+pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour vendre mes tokens aux autres utilisateurs sera mis en place.
 
 5- La création du site
 
