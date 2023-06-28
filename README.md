@@ -2,13 +2,13 @@
 	
 1-	Introduction
 	
-	1.1 Qu'est-ce que l'incubateur du numérique
+	Qu'est-ce que l'incubateur du numérique
 
 	À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé Incubateur du 		numérique.
 	Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en 		appliquant les compétences acquises en formation grâce à des projets concrets.
 	J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant 	dans un environnement semblable au monde de l’entreprise.
 
- 	1.2 Les missions
+ 	Les missions
 
   	Hard skills et expertise technique :
 
