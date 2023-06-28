@@ -8,7 +8,7 @@
 Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.
 J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.
 
-b)	Les missions
+	b)	Les missions
 
 	Hard skills & expertise technique
 
