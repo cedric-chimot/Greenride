@@ -1,21 +1,16 @@
 # GREENRIDE - PROJET INCUBATEUR
 	
 1- Introduction
-
 	
 1.1 Qu'est-ce que l'incubateur du numérique
-
 
 À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé Incubateur du numérique.
 Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.
 J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.
 
-
 1.2 Les missions
 
-
 Hard skills et expertise technique :
-
 
 - Travail en mode projet et parrainage
 - Accompagnement personnalisé dans le développement de la pratique professionnelle
@@ -23,18 +18,14 @@ Hard skills et expertise technique :
 - Accompagnement éventuel pour le passage des certifications (Titre professionnel)
 - Retour d'expériences par les professionnels du numérique
 
-
 Soft skills, posture métier et entretien :
-
 
 - Coaching
 - Technique de recherche d'emploi
 - Correction des lacunes et acquisition d'expérience pratique
 - Mise en valeur d'une première expérience sur le CV
 
-
 2- Le projet
-
 
 Le projet Greenride est un site de covoiturage. Il faisait parti des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.
 Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Le site fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
@@ -42,6 +33,7 @@ Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuven
 Par exemple lorsqu’un conducteur prend un passager pour un trajet de 20km il gagne 20 tokens et le passager consomme 20 tokens. A l’inscription l’utilisateur a un crédit de 50 tokens, et pour les personnes ne possédant
 pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour vendre mes tokens aux autres utilisateurs sera mis en place.
 
+3- Conception et maquettage du site
 
 5- La création du site
 
