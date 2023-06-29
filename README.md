@@ -62,6 +62,8 @@ Voici en image les propositions de disposition des différentes pages ainsi que 
 ![maquette4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ceb1f78b-05ae-4408-963d-b8fc9e39ea16)
 ![maquette5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/179399e4-06d0-48e0-a4c2-daaff3bf2427)
 ![maquette6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/93d5addc-45e9-4388-b9e3-2b204891d0c6)
+![maquette7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c1b80488-e7cf-40c2-9079-8dc930c4adb9)
+![maquette8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4ab190ca-2cec-4b93-a514-fd88759b2416)
 
 Sur les différentes images, il est possible de voir les pages telles qu'elles ont été pensées au départ. Il y a bien entendu eu de nombreuses réflexions, celles-ci n'étant qu'une ébauche du rendu final du site. Nous étions 16 dans l'équipe au départ, les formateurs nous ont donc séparés en deux équipes distinctes pour travailler au mieux. Le design du projet a donc évolué selon les idées de chacun ce qui donne une proposition finale différente du projet par rapport à la maquette initiale.
 
@@ -111,7 +113,9 @@ _- Le tableau de bord :_
 
 J'ai participé à la création de différents formulaires, insription connexion etc... 
 
-![inscription-green](https://github.com/cedric-chimot/Greenride/assets/106061524/614693a0-e474-443e-a7b2-8986b9a37d71)
+![inscription1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3869910e-6db1-498c-9d1e-67494eab5e81)
+
+![login-green](https://github.com/cedric-chimot/Greenride/assets/106061524/fb5b2081-ca5a-4648-b108-3bd125dc7f3d)
 
 ![contact-green](https://github.com/cedric-chimot/Greenride/assets/106061524/b95086af-7275-4097-9ce7-8e0cf2cc54cc)
 
