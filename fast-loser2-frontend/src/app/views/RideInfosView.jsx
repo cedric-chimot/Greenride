@@ -14,7 +14,7 @@ L.Icon.Default.imagePath = '../../src/app/assets/img/';
 const provider = new OpenStreetMapProvider();
 
 const RideInfosView = () => {
-  document.title = 'Informations du trajet';
+  document.title = 'Informations du trajet | Greenride';
   const { id } = useParams();
   const currentUser = useSelector((state) => state.user);
   const navigate = useNavigate();
@@ -57,7 +57,7 @@ const RideInfosView = () => {
           });
           const resultsCar = await axios.get(URL_BACK + trajet.id_car['@id']);
           const resultsComments = await axios.get(
-            URL_BACK + '/get/comments/' + trajet.id
+            URL_BACK + '/get/comments/' + trajet.id_account['@id'].split('/')[3]
           );
           const resultsUser = await axios.get(
             URL_BACK + trajet.id_account['@id']
@@ -280,7 +280,7 @@ const RideInfosView = () => {
             </div>
           </div>
           <div className={'h-[90vh] bg-Teal flex pt-6'}>
-            <div className="m-4 w-1/2 rounded-lg bg-Keppel p-6 shadow-lg shadow-teal-900 block z-10">
+            <div className="m-4 w-1/2 rounded-lg bg-Moonstone p-6 shadow-lg shadow-teal-900 block z-10">
               {latDepart != 0 &&
               lngDepart != 0 &&
               latArrivee != 0 &&
@@ -313,7 +313,7 @@ const RideInfosView = () => {
               )}
             </div>
 
-            <div className="m-4 w-1/2 rounded-lg bg-Keppel p-6 shadow-lg shadow-teal-900 flex-auto flex flex-wrap text-Whitesmoke">
+            <div className="m-4 w-1/2 rounded-lg bg-Moonstone p-6 shadow-lg shadow-teal-900 flex-auto flex flex-wrap text-Whitesmoke">
               <h2 className="mb-6 mt-0.5 text-center w-full">Informations</h2>
               <p className="w-full text-2xl ml-8">
                 <b>Date de départ: </b>
@@ -378,18 +378,12 @@ const RideInfosView = () => {
                 <div className="w-full flex mb-12" key={comment.id}>
                   <img
                     className="object-cover rounded-full mr-5 w-16 h-16 order-1"
-                    src={
-                      comment.isAnonymized
-                        ? '/src/app/assets/img/avatar.png'
-                        : comment.id_user.img_profil
-                    }
+                    src={comment.rating_user_id.img_profil}
                     alt="id"
                   />
                   <div className="order-2 flex flex-wrap h-[150px]">
                     <span className="order-1 w-full lg:font-extrabold lg:text-3xl">
-                      {comment.isAnonymized
-                        ? 'Utilisateur anonyme'
-                        : `${comment.id_user.prenom} ${comment.id_user.nom}`}
+                      {comment.rating_user_id.prenom} {comment.rating_user_id.nom}
                     </span>
                     {(() => {
                       const arrUp = [];

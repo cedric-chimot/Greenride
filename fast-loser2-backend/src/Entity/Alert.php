@@ -56,19 +56,19 @@ class Alert
         return $this;
     }
 
-    public function getUserPlaint(): ?User
+    public function getUserPlaint(): ?user
     {
         return $this->user_plaint;
     }
 
-    public function setUserPlaint(?User $user_plaint): self
+    public function setUserPlaint(?user $user_plaint): self
     {
         $this->user_plaint = $user_plaint;
 
         return $this;
     }
 
-    public function getUserSignal(): ?User
+    public function getUserSignal(): ?user
     {
         return $this->user_signal;
     }

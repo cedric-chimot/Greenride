@@ -136,8 +136,8 @@ const ModificationView = () => {
                 const resultsMusic = await axios.get(URL_BACK + '/api/music');
                 console.log(resultsMusic)
                 setMusics(resultsMusic.data["hydra:member"])
-                if (currentUser.img_profil) {
-                    setImageSrc(currentUser.img_profil)
+                if (currentUser.imgProfil) {
+                    setImageSrc(currentUser.imgProfil)
                 }
             } catch (error) {
                 console.error(error.message);
@@ -152,8 +152,8 @@ const ModificationView = () => {
                 <div className="container2 mt-12 mb-12 w-full">
                     <div className="flex h-full items-center">
                         <div className="container-photo w-1/2 flex items-center h-full flex-col gap-y-3 ml-12 pt-20">
-                            <div className="box-img w-72 h-72 rounded-full bg-red-500 flex justify-center">
-                                {imageSrc && <img src={imageSrc} className="max-w-full max-h-max rounded-full object-cover" alt="Preview" />}
+                            <div className="box-img w-72 h-72 flex justify-center">
+                                {imageSrc && <img src={imageSrc} className="w-full h-full rounded-full object-cover" alt="Preview" />}
                             </div>
                             <div className="upload flex align-center justify-center">
                                 <div className="upload-file flex items-center justify-center rounded w-50 bg-[#7cc474] hover:bg-[#54b44b] text-white font-extrabold py-2 px-4">

@@ -22,6 +22,8 @@ import Header from './components/layouts/Header';
 import Sidebar from './components/layouts/Sidebar';
 import { URL_BACK } from "./constants/urls/urlBackEnd";
 
+import { gapi } from 'gapi-script'
+
 const contextClass = {
   success: 'bg-green-600',
   error: 'bg-red-600',
@@ -54,6 +56,17 @@ const App = () => {
     dispatch(clearUser());
     window.location.replace('http://localhost:5173/');
   };
+
+  useEffect(() => {
+   function start() {
+    gapi.auth2.init({
+      clientId: "75832900698-3a72do8k1bm3ov6163hj3fvkndnniao3.apps.googleusercontent.com",
+      scope: ""
+    })
+   };
+   gapi.load('client:auth2', start);
+  }, [])
+  
 
   useEffect(() => {
     const userToken = getUserService();

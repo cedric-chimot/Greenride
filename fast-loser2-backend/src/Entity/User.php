@@ -131,6 +131,10 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\OneToMany(mappedBy: 'acheteur', targetEntity: Annonces::class)]
     private Collection $transaction;
 
+    #[ORM\Column(nullable: true, name: "isGoogleUser")]
+    #[Groups(['user'])]
+    private ?bool $isGoogleUser = null;
+
 
     public function getId(): ?int
     {
@@ -468,6 +472,18 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
                 $transaction->setAcheteur(null);
             }
         }
+
+        return $this;
+    }
+
+    public function isIsGoogleUser(): ?bool
+    {
+        return $this->isGoogleUser;
+    }
+
+    public function setIsGoogleUser(?bool $isGoogleUser): self
+    {
+        $this->isGoogleUser = $isGoogleUser;
 
         return $this;
     }

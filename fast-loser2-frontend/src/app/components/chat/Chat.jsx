@@ -20,7 +20,7 @@ const Chat = (props) => {
   const [activeChatId, setActiveChatId] = useState(0);
   const activeChatIdRef = useRef();
   const [messages, setMessages] = useState([]);
-  const messagesEndRef = useRef(null)
+  const messagesEndRef = useRef();
   const [userToTalk, setUserToTalk] = useState({});
   /////////////////////////RECHERCHE///////////////////
   const [searchedUser, setSearchedUser] = useState('');
@@ -31,7 +31,7 @@ const Chat = (props) => {
   const user = useSelector((state) => state.user);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }
 
   useEffect(() => {
@@ -280,8 +280,6 @@ const Chat = (props) => {
         }
       });
       function getRealtimeData(data) {
-        console.log(activeRef.current)
-        console.log(activeChatIdRef.current)
         if (activeRef.current) {
           if (activeChatIdRef.current != 0) {
             axios
@@ -292,6 +290,13 @@ const Chat = (props) => {
           }
         } else if (!activeRef.current) {
           fetchNotifs()
+          if (activeChatIdRef.current != 0) {
+            axios
+            .get(URL_BACK + `/get/messages_by_chat_id/${activeChatIdRef.current}`)
+            .then((res) => {
+              setMessages(res.data)
+            });
+          }
         }
       }
       eventSource.onmessage = e => getRealtimeData(e);

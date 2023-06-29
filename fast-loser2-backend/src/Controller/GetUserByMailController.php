@@ -326,18 +326,18 @@ class GetUserByMailController extends AbstractController
     }
 
     #[Route('/calcTokens/{action}/{vendeurId}/{nbTokens}', name: 'calcTokens')]
-    public function calcTokens(string $vendeurId, int $nbTokens , string $action, EntityManagerInterface $entityManager) : Response
-    {   
+    public function calcTokens(string $vendeurId, int $nbTokens, string $action, EntityManagerInterface $entityManager): Response
+    {
         $vendeur = $entityManager->getRepository(User::class)->find($vendeurId);
         $vendeurTokens = $vendeur->getTokens();
-        if($action === 'add') {
+        if ($action === 'add') {
             $vendeur->setTokens($vendeurTokens + $nbTokens);
         } else {
             $vendeur->setTokens($vendeurTokens - $nbTokens);
         }
-        
+
         $entityManager->flush();
-        
+
         return $this->json(array($vendeur));
     }
 

@@ -18,6 +18,7 @@ const initialState = {
   description: null,
   date_unban: null,
   avertissements: null,
+  isGoogleUser: null,
 };
 
 export const userSlice = createSlice({
@@ -41,6 +42,7 @@ export const userSlice = createSlice({
       state.description = action.payload.description;
       state.date_unban = action.payload.date_unban;
       state.avertissements = action.payload.avertissements;
+      state.isGoogleUser = action.payload.isGoogleUser;
       setUserService(action.payload)
     },
     clearUser: (state) => {
@@ -60,6 +62,7 @@ export const userSlice = createSlice({
       state.description = null;
       state.date_unban = null;
       state.avertissements = null;
+      state.isGoogleUser = null;
     },
     clearUser: () => {
       return initialState;

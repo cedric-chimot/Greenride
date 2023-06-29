@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-evenly min-h-[8vh] text-white bg-[#04adbf] font-bold ">
             <div>
                 <ul className="m-0 p-0 list-none  items-center">
-                    <li>Mentions légales</li>
-                    <li>CGU</li>
+                    <li className='inline-block'>Mentions légales</li>
+                    <li className='inline-block ml-20'>CGU</li>
                 </ul>
             </div>
             <div className="flex ">
@@ -36,10 +36,10 @@ const Footer = () => {
                 />
             </div>
             <div>
-                <ul>
-                    <li>Nous rejoindre</li>
+                <ul className='whitespace-nowrap'>
+                    <li className='inline-block'>Nous rejoindre</li>
                     <NavLink to={"/Contact"} className="hover:text-[#b2ffa6]">
-                        <li>Contact</li>
+                        <li className='inline-block ml-20'>Contact</li>
                     </NavLink>
                 </ul>
             </div>

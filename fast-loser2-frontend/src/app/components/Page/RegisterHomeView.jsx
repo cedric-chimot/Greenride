@@ -10,7 +10,7 @@ import axios from 'axios';
 import { URL_BACK } from '../../constants/urls/urlBackEnd';
 
 const RegisterHomeView = () => {
-
+  document.title = 'Accueil | Greenride';
   const [rides, setRides] = useState([]);
   const navigate = useNavigate();
 

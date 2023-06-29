@@ -12,6 +12,7 @@ import { Form } from 'formik';
 import { useNavigate } from 'react-router-dom';
 
 const UnregisteredHomeView = () => {
+  document.title = 'Accueil | Greenride';
   const user = useSelector((state) => state.auth);
   const navigate = useNavigate();
   const [rides, setRides] = useState([]);

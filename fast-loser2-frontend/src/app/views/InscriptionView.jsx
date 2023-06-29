@@ -9,6 +9,8 @@ import Notif from '../components/Notif';
 import { URL_BACK } from '../constants/urls/urlBackEnd';
 
 function FormInscription() {
+  document.title = 'Inscription | Greenride';
+
   const validate = Yup.object().shape({
     nom: Yup.string()
       .max(15, '*Le nom ne peut excéder 15 caractères')
@@ -98,6 +100,7 @@ function FormInscription() {
                         dateInscrit: new Date()
                           .toLocaleDateString()
                           .replaceAll('/', '-'),
+                        isGoogleUser: false
                       };
                       axios.post(URL_BACK + '/api/users', user).then((res) => {
                         if (res.status === 201) {

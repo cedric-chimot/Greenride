@@ -13,12 +13,16 @@ import Input from '../components/FormComponents/Input';
 import { URL_BACK } from '../constants/urls/urlBackEnd';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../services/firebaseConfig';
+import { GoogleLogin, GoogleLogout } from 'react-google-login'
+
 /**
  * View/Page Login
  *
  * @author Peter Mollet
  */
 const LoginView = () => {
+  document.title = 'Connexion | Greenride';
+
   const [errorLog, setErrorLog] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -66,6 +70,68 @@ const LoginView = () => {
       .catch(() => setErrorLog(true));
   };
 
+  const responseGoogle = (response) => {
+    console.log(response);
+  }
+
+  const onSuccessGoogle = (response) => {
+    console.log(response);
+    axios
+      .get(URL_BACK + `/user/check-email/${response.profileObj.email}`)
+      .then((res) => {
+        if (res.status === 200 && res.data === true) {
+          const credentials = {
+            username: response.profileObj.email,
+            password: response.profileObj.googleId
+          }
+          handleLogin(credentials)
+        } else {
+          let user = {
+            email: response.profileObj.email,
+            plainPassword: response.profileObj.googleId,
+            nom: response.profileObj.familyName,
+            prenom: response.profileObj.givenName,
+            ville: '',
+            cp: 0,
+            adresse: '',
+            tokens: 50,
+            silence: '',
+            dateNaissance: "",
+            idMusic: '/api/music/1',
+            avertissements: 0,
+            dateInscrit: new Date()
+              .toLocaleDateString()
+              .replaceAll('/', '-'),
+            imgProfil: response.profileObj.imageUrl,
+            role: ["ROLE_USER"],
+            isGoogleUser: true
+          };
+          axios.post(URL_BACK + '/api/users', user).then((res) => {
+            if (res.status === 201) {
+              const credentials = {
+                username: response.profileObj.email,
+                password: response.profileObj.googleId
+              }
+              handleLogin(credentials)
+            } else {
+              // pour le debug
+              toast.error(
+                <CustomToast message="Inscription échouée, veuillez réessayer." />,
+                {
+                  position: toast.POSITION.BOTTOM_RIGHT,
+                }
+              );
+              alert(res);
+            }
+          });
+        }
+      })
+      .catch((err) => {
+        console.error(err);
+        // alert('Cet email existe déjà !');
+      });
+  }
+
   return (
     <div className="container1 h-[84vh] flex bg-Teal">
       <div className="container2 w-2/3 flex flex-col text-center items-center justify-center">
@@ -105,7 +171,15 @@ const LoginView = () => {
               />
             </div>
             <div className="btn-inscription mt-8">
-              <Button children="Connexion" />
+              <Button children="Connexion" width="mb-4" />
+              <GoogleLogin
+                clientId="75832900698-3a72do8k1bm3ov6163hj3fvkndnniao3.apps.googleusercontent.com"
+                buttonText="Se connecter avec Google"
+                onSuccess={onSuccessGoogle}
+                onFailure={responseGoogle}
+                cookiePolicy={'single_host_origin'}
+                isSignedIn={true}
+              />
               <div className=" mt-4 mb-8 flex items-center justify-center">
                 <NavLink to="/forgot-password">
                   <span className="cursor-pointer text-Whitesmoke font-bold ">

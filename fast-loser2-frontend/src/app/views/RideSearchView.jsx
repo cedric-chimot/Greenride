@@ -7,9 +7,16 @@ import Button from '../components/Button';
 import InputT from '../components/InputT';
 import Card from '../components/Card';
 import { URL_BACK } from '../constants/urls/urlBackEnd';
+import AsyncSelect from 'react-select/async';
 
 const RideSearchView = () => {
+  document.title = 'Rechercher un trajet | Greenride';
+
   const [trajets, setTrajets] = useState([]);
+  const [inputValueDepart, setValueDepart] = useState('');
+  const [selectedValueDepart, setSelectedValueDepart] = useState(null);
+  const [inputValueDestination, setValueDestination] = useState('');
+  const [selectedValueDestination, setSelectedValueDestination] = useState(null);
 
   const navigate = useNavigate();
 
@@ -28,15 +35,31 @@ const RideSearchView = () => {
     return newDate;
   };
 
+  // handle input change event
+  const handleInputChangeDepart = value => {
+    setValueDepart(value);
+  };
+
+  const handleInputChangeDestination = value => {
+    setValueDestination(value);
+  };
+
+  // handle selection
+  const handleChangeDepart = value => {
+    setSelectedValueDepart(value);
+  }
+
+  const handleChangeDestination = value => {
+    setSelectedValueDestination(value);
+  }
+
+  const handleAutocompleteDropdown = (value) => {
+    return fetch('https://geo.api.gouv.fr/communes?nom=' + value + '&fields=departement&boost=population&limit=5').then(res => res.json());
+  };
+
   ////////SCHEMA DE VALIDATION/////////////////
   const validationSearch = Yup.object().shape({
     departDate: Yup.date().required('Veuillez indiquer une date de départ'),
-    lieuDepart: Yup.string()
-      .matches(/^[a-zA-Z\-]+$/, 'Veuillez indiquer un lieu de départ correct')
-      .required('Veuillez indiquer un lieu de départ'),
-    destination: Yup.string()
-      .matches(/^[a-zA-Z\-]+$/, 'Veuillez indiquer une destination correcte')
-      .required('Veuillez indiquer une destination'),
   });
 
   let ridesDisplayer = () => {
@@ -69,22 +92,32 @@ const RideSearchView = () => {
             }}
             validationSchema={validationSearch}
             onSubmit={(values) => {
-              navigate(
-                `/search/results/${values.lieuDepart}/${
-                  values.destination
-                }/${dateHandler(values.departDate)}/${values.departHour}`
+              if(selectedValueDepart != null && selectedValueDestination != null){
+                navigate(
+                `/search/results/${selectedValueDepart.nom}/${selectedValueDestination.nom
+                }/${dateHandler(values.departDate)}`
               );
+              }else{
+                alert("Veuillez sélectionner un départ et une destination.")
+              }
+              
             }}
           >
             <Form className="flex flex-col justify-around h-full ">
               <div>
                 <div className="flex justify-between items-center my-2 w-full ">
                   <label className="text-xl font-bold">Départ : </label>
-                  <InputT
-                    width="3/4"
-                    name={'lieuDepart'}
-                    id={'lieuDepart'}
-                    type="text"
+                  <AsyncSelect
+                    className='appearance-none border-2 border-gray-200 rounded-full px-4 text-gray-700 leading-tight h-10 focus:outline-none focus:border-[#7cc474] border-transparent w-4/5 focus:ring-0'
+                    getOptionLabel={e => e.nom + ' (' + e.code + ')'}
+                    getOptionValue={e => e.nom}
+                    loadOptions={handleAutocompleteDropdown}
+                    onInputChange={handleInputChangeDepart}
+                    onChange={handleChangeDepart}
+                    name='lieuDepart'
+                    id='lieuDepart'
+                    isClearable={true}
+                    placeholder="Sélectionner un lieu de départ"
                   />
                 </div>
                 <div className="text-red-700 text-center mt-4 text-sm font-extrabold flex-row">
@@ -95,11 +128,20 @@ const RideSearchView = () => {
               <div>
                 <div className="flex justify-between items-center my-2 w-full ">
                   <label className="text-xl font-bold">Destination : </label>
-                  <InputT
-                    width="3/4"
-                    name={'destination'}
-                    id={'destination'}
-                    type="text"
+                  <AsyncSelect
+                    className='appearance-none border-2 border-gray-200 rounded-full px-4 text-gray-700 leading-tight h-10 focus:outline-none focus:border-[#7cc474] border-transparent w-4/5 focus:ring-0'
+                    cacheOptions
+                    defaultOptions
+                    value={selectedValueDestination}
+                    getOptionLabel={e => e.nom + ' (' + e.code + ')'}
+                    getOptionValue={e => e.nom}
+                    loadOptions={handleAutocompleteDropdown}
+                    onInputChange={handleInputChangeDestination}
+                    onChange={handleChangeDestination}
+                    name='destination'
+                    id='destination'
+                    isClearable={true}
+                    placeholder="Sélectionner un lieu d'arrivée"
                   />
                 </div>
                 <div className="text-red-700  mt-4 text-center text-sm font-extrabold flex-row">

@@ -97,7 +97,7 @@ const Routes = () => {
           <Route path={'/Admin/ride/:id'} element={<AdminRide />} />
           <Route path={'/Admin/message/:id'} element={<AdminContactView />} />
           <Route
-            path={'/search/results/:depart/:destination/:date/:hour'}
+            path={'/search/results/:depart/:destination/:date'}
             element={<ResultRideSearch />}
           />
           <Route path="Dashboard" element={<Dashboard />} />
