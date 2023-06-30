@@ -257,7 +257,7 @@ La vue d'un profil admin, avec la possibilité de voir l'historique des échange
 
 _5.3.3 Conclusions_
 
-Ces différents exemple démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
+Ces différents exemples démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
 
 # 6- Conclusion générale
 
