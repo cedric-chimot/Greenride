@@ -189,7 +189,7 @@ _- Profil autre utilisateur :_
 
 ![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)
 
-On peut voir ici toute les informations d'un utilisateur. On peut luis envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
+On peut voir ici toute les informations d'un utilisateur. On peut lui envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
 
 _- Pop-up d'avis :_
 
@@ -221,6 +221,8 @@ _- Le profil d'un utilisateur en vue admin :_
 
 ![admin1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2c35837b-c164-4313-82e3-84648e881b2e)
 
+Toutes les informations de l'utilisateur s'affichent (informations personnelles, trajets etc...). L'admin peut le contacter directement par le chat, le bannir s'il y a lieu.
+
 _- La liste des trajets postés :_
 
 ![admin5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e53e7283-d420-493c-8d7b-09ec1c9a8173)
@@ -229,17 +231,27 @@ _- La vue d'un trajet :_
 
 ![admin2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/562387b8-c5dc-4004-98ba-9d753a170e59)
 
+Vue d'un trajet avec les avis éventuels sur le conducteur et toutes les informations concernant le trajet.
+
 _- La vue d'une alerte :_
 
 ![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
 
-L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement.
+L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affiché toutes les alertes antérieures s'il y en a.
 
 _- Les statistiques :_
 
 ![admin4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9318fc0e-bb98-48ca-8d3b-d50627241575)
 
 Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateurs, les tokens consommés. Celles-ci évoluent en direct en fonction des données de la base de données.
+
+_- Le profil d'un admin_
+
+![admin7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/450bd50d-4986-4b60-991f-b1349107c0f4)
+
+![admin8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/097f6498-810f-4453-8eff-4256e1e27821)
+
+La vue d'un profil admin, avec la possibilité de voir l'historique des échanges avec les utilisateurs et le formulaire en mode pop-up pour créer un nouvel administrateur.
 
 _5.3.3 Conclusions_
 
