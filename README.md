@@ -237,7 +237,7 @@ _- La vue d'une alerte :_
 
 ![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
 
-L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affiché toutes les alertes antérieures s'il y en a.
+L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affichées toutes les alertes antérieures s'il y en a.
 
 _- Les statistiques :_
 
