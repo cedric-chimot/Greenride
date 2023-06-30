@@ -98,14 +98,16 @@ Le site se présente comme sur les images qui suivent, les différentes tâches 
 _- La page d'accueil du site :_
  
 ![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)
+![accueil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a2097f88-50f0-4616-8776-c51aed835e04)
+![accueil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/8418eea0-5206-48f9-83b2-b887a99d4110)
+
+_- Le tableau de bord :_
 
 Au niveau du tableau de bord, j'ai créé une sidebar pour renvoyer aux différentes pages accessible pour le ou les administrateurs ainsi que le header
 qui affiche l'identité de la personne connectée.
 
 Dès qu'il se connecte, il est envoyé sur cette page directement. Les blocs affichent les utilisateurs inscrits, les alertes ou encore les messages
 directement depuis la base de données. Il y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
-
-_- Le tableau de bord :_
 
 ![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
 
