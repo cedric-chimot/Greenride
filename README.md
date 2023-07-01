@@ -39,6 +39,7 @@ _Technologies utilisées :_
 - CSS
 - Javascript
 - React
+- PHP
 - Symfony via une API Rest
 - Tailwind
 - MySql
