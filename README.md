@@ -98,14 +98,16 @@ Le site se présente comme sur les images qui suivent, les différentes tâches 
 _- La page d'accueil du site :_
  
 ![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)
+![accueil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a2097f88-50f0-4616-8776-c51aed835e04)
+![accueil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/8418eea0-5206-48f9-83b2-b887a99d4110)
+
+_- Le tableau de bord :_
 
 Au niveau du tableau de bord, j'ai créé une sidebar pour renvoyer aux différentes pages accessible pour le ou les administrateurs ainsi que le header
 qui affiche l'identité de la personne connectée.
 
 Dès qu'il se connecte, il est envoyé sur cette page directement. Les blocs affichent les utilisateurs inscrits, les alertes ou encore les messages
 directement depuis la base de données. Il y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
-
-_- Le tableau de bord :_
 
 ![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
 
@@ -189,7 +191,7 @@ _- Profil autre utilisateur :_
 
 ![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)
 
-On peut voir ici toute les informations d'un utilisateur. On peut luis envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
+On peut voir ici toute les informations d'un utilisateur. On peut lui envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
 
 _- Pop-up d'avis :_
 
@@ -221,6 +223,8 @@ _- Le profil d'un utilisateur en vue admin :_
 
 ![admin1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2c35837b-c164-4313-82e3-84648e881b2e)
 
+Toutes les informations de l'utilisateur s'affichent (informations personnelles, trajets etc...). L'admin peut le contacter directement par le chat, le bannir s'il y a lieu.
+
 _- La liste des trajets postés :_
 
 ![admin5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e53e7283-d420-493c-8d7b-09ec1c9a8173)
@@ -229,11 +233,13 @@ _- La vue d'un trajet :_
 
 ![admin2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/562387b8-c5dc-4004-98ba-9d753a170e59)
 
+Vue d'un trajet avec les avis éventuels sur le conducteur et toutes les informations concernant le trajet.
+
 _- La vue d'une alerte :_
 
 ![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
 
-L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement.
+L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affichées toutes les alertes antérieures s'il y en a.
 
 _- Les statistiques :_
 
@@ -241,9 +247,17 @@ _- Les statistiques :_
 
 Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateurs, les tokens consommés. Celles-ci évoluent en direct en fonction des données de la base de données.
 
+_- Le profil d'un admin_
+
+![admin7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/450bd50d-4986-4b60-991f-b1349107c0f4)
+
+![admin8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/097f6498-810f-4453-8eff-4256e1e27821)
+
+La vue d'un profil admin, avec la possibilité de voir l'historique des échanges avec les utilisateurs et le formulaire en mode pop-up pour créer un nouvel administrateur.
+
 _5.3.3 Conclusions_
 
-Ces différents exemple démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
+Ces différents exemples démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
 
 # 6- Conclusion générale
 
