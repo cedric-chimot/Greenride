@@ -41,6 +41,8 @@ _Technologies utilisées :_
 - React
 - PHP
 - Symfony via une API Rest
+- Formik
+- Yup
 - Tailwind
 - MySql
 - Looping
