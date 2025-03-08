@@ -65,27 +65,48 @@ Les utilisateurs inscrits peuvent :
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
-# 3- Conception et maquettage du site
+## 3️⃣ Conception et maquettage du site  
 
-Avant de coder le site à proprement parler, il a fallu commencer par créer une maquette de celui-ci afin d'avoir une idée de ce à quoi il pourrait ressembler. Travaillant en méthode Agile, nous nous sommes concertés et ce sont les formateurs qui ont au final validé ou non nos idées de développement.
+Avant de coder le site à proprement parler, il a fallu commencer par créer une **maquette** afin d'avoir une idée de son apparence finale.  
+Travaillant en **méthode Agile**, nous nous sommes concertés et ce sont les formateurs qui ont **validé ou non** nos idées de développement.  
 
-Pour réaliser cette maquette, nous avons utilisé Figma, un site collaboratif de design. Pour la répartition des tâches entre l'équipe, nous avons créer un tableau de suivi sur Jira afin de gérer au mieux les différentes étapes de conception et les nombreux sprints à venir tout au long du projet.
+## 🛠️ Outils utilisés  
 
-Voici en image les propositions de disposition des différentes pages ainsi que le code couleur choisi pour le site.
+Pour concevoir la maquette et organiser les tâches, nous avons utilisé :  
 
-![maquette1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/f784e26a-898b-47b8-a5a7-98449d039926)
-![maquette2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e1aff879-ce42-4697-9b39-8fb51306cca6)
-![maquette3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/76d732b1-1900-4856-85c8-7b3ade2bfde2)
-![maquette4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ceb1f78b-05ae-4408-963d-b8fc9e39ea16)
-![maquette5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/179399e4-06d0-48e0-a4c2-daaff3bf2427)
-![maquette6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/93d5addc-45e9-4388-b9e3-2b204891d0c6)
-![maquette7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c1b80488-e7cf-40c2-9079-8dc930c4adb9)
-![maquette8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4ab190ca-2cec-4b93-a514-fd88759b2416)
+- **Figma** 🖌️ : Un outil collaboratif de design pour créer les maquettes.  
+- **Jira** 📌 : Un tableau de suivi permettant de gérer les étapes de conception et les nombreux **sprints** à venir tout au long du projet.  
 
-Sur les différentes images, il est possible de voir les pages telles qu'elles ont été pensées au départ. Il y a bien entendu eu de nombreuses réflexions, celles-ci n'étant qu'une ébauche du rendu final du site. Nous étions 16 dans l'équipe au départ, les formateurs nous ont donc séparés en deux équipes distinctes pour travailler au mieux. Le design du projet a donc évolué selon les idées de chacun ce qui donne une proposition finale différente du projet par rapport à la maquette initiale.
+## 📷 Aperçu des maquettes  
 
-_Exemple :_
-Pour les formulaires (inscription, connexion etc...), nous avons choisi de les uniformisés afin qu'ils soient les plus optimisés possible en créant par exemple un composant pour les inputs de façon à ce qu'ils soient tous de taille indentique.
+Voici en images les propositions de disposition des différentes pages ainsi que le **code couleur** choisi pour le site :  
+
+![maquette1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/f784e26a-898b-47b8-a5a7-98449d039926)  
+![maquette2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e1aff879-ce42-4697-9b39-8fb51306cca6)  
+![maquette3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/76d732b1-1900-4856-85c8-7b3ade2bfde2)  
+![maquette4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ceb1f78b-05ae-4408-963d-b8fc9e39ea16)  
+![maquette5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/179399e4-06d0-48e0-a4c2-daaff3bf2427)  
+![maquette6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/93d5addc-45e9-4388-b9e3-2b204891d0c6)  
+![maquette7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/c1b80488-e7cf-40c2-9079-8dc930c4adb9)  
+![maquette8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4ab190ca-2cec-4b93-a514-fd88759b2416)  
+
+## 👥 Collaboration et évolutions du design  
+
+Sur les différentes images, il est possible de voir les pages **telles qu'elles ont été pensées au départ**.  
+Bien entendu, il y a eu de nombreuses **réflexions et modifications**, ces maquettes n’étant qu’une **ébauche** du rendu final du site.  
+
+Nous étions **16** dans l'équipe au départ.  
+Les formateurs nous ont donc séparés en **deux équipes distinctes** afin d’optimiser notre travail.  
+Le **design du projet** a évolué selon les idées de chacun, ce qui a donné une proposition finale **différente** des maquettes initiales.  
+
+### ✨ Exemple d'optimisation :  
+
+Pour les **formulaires** (inscription, connexion, etc.), nous avons choisi de les **uniformiser** afin qu'ils soient **les plus optimisés possible**.  
+📌 **Solution retenue** :  
+✔️ Création d'un **composant réutilisable** pour les **inputs**  
+✔️ Assurer une **taille uniforme** des champs pour une meilleure lisibilité et cohérence  
+
+🚀 **Cette approche nous a permis d'avoir un site plus ergonomique et harmonisé !**  
 
 # 4- Création de la base de données
 
