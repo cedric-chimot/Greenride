@@ -1,55 +1,69 @@
-# GREENRIDE - PROJET INCUBATEUR
-	
-# 1- Introduction
-	
-# _1.1 Qu'est-ce que l'incubateur du numérique_
+# 🚗 GREENRIDE - PROJET INCUBATEUR  
 
-À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé Incubateur du numérique.
-Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.
-J’ai donc intégré une équipe Agile pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.
+## 1️⃣ Introduction  
 
-# _1.2 Les missions_
+### 📌 1.1 Qu'est-ce que l'incubateur du numérique ?  
 
-Hard skills et expertise technique :
+<p align="justify">
+À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé <strong>Incubateur du numérique</strong>.  
+Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.  
+J’ai donc intégré une équipe **Agile** pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.  
+</p>
 
-- Travail en mode projet et parrainage
-- Accompagnement personnalisé dans le développement de la pratique professionnelle
-- Développement du "background" technique au travers de la réalisation de projets professionnels (réalisation d'un projet complet, méthode Agile, immersion professionnelle)
-- Accompagnement éventuel pour le passage des certifications (Titre professionnel)
-- Retour d'expériences par les professionnels du numérique
+### 🎯 1.2 Les missions  
 
-Soft skills, posture métier et entretien :
+#### 🏆 Hard skills et expertise technique :  
+- Travail en **mode projet** et parrainage  
+- Accompagnement personnalisé dans le développement de la pratique professionnelle  
+- Développement du **"background" technique** au travers de la réalisation de projets professionnels (*projet complet, méthode Agile, immersion professionnelle*)  
+- Accompagnement éventuel pour le passage des **certifications** (*Titre professionnel*)  
+- Retour d'expériences par les **professionnels du numérique**  
 
-- Coaching
-- Technique de recherche d'emploi
-- Correction des lacunes et acquisition d'expérience pratique
-- Mise en valeur d'une première expérience sur le CV
+#### 💡 Soft skills, posture métier et entretien :  
+- Coaching  
+- Technique de recherche d'emploi  
+- Correction des lacunes et acquisition d'expérience pratique  
+- Mise en valeur d'une première expérience sur le **CV**  
 
-# 2- Le projet
+---
 
-Le projet Greenride est un site de covoiturage. Il faisait parti des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.
-Ici nous devions créer un site permettant la mise en relation de personnes voulant réaliser des trajets en voiture sans transfert d'argent. Il fonctionne avec un sytème de Tokens, en quelque sorte la "monnaie" du site.
-Les utilisateurs inscrits postent des trajets s'ils sont véhiculés, ils peuvent aussi être simple passager.
-Par exemple lorsqu’un conducteur prend un passager pour un trajet de 20km il gagne 20 tokens et le passager consomme 20 tokens. A l’inscription l’utilisateur a un crédit de 50 tokens, et pour les personnes ne possédant
-pas de voiture ils ont la possibilité d’acheter des tokens. Un système pour vendre mes tokens aux autres utilisateurs sera mis en place.
+## 2️⃣ Le projet  
 
-_Technologies utilisées :_
+<p align="justify">
+Le projet <strong>Greenride</strong> est un site de <strong>covoiturage</strong>. Il faisait partie des sujets proposés par les formateurs au début de l'incubateur. Suivant un cahier des charges, il fallait réaliser un site selon les spécificités demandées.  
+Ici, nous devions créer un site permettant la <strong>mise en relation de personnes</strong> voulant réaliser des trajets en voiture <strong>sans transfert d'argent</strong>.  
+</p>
 
-- HTML
-- CSS
-- Javascript
-- React
-- PHP
-- Symfony via une API Rest
-- Formik
-- Yup
-- Tailwind
-- MySql
-- Looping
-- Stripe
-- Leaflet
-- Figma
-- Jira
+Il fonctionne avec un **système de Tokens**, une sorte de "monnaie" interne.  
+Les utilisateurs inscrits peuvent :  
+✔️ **Poster des trajets** s'ils sont conducteurs  
+✔️ **Rejoindre des trajets** en tant que passager  
+
+💰 **Système de tokens :**  
+- Lorsqu’un conducteur prend un passager pour un trajet de **20 km**, il **gagne 20 tokens** et le passager **consomme 20 tokens**.  
+- À l’inscription, l’utilisateur reçoit **50 tokens**.  
+- Les personnes sans voiture peuvent **acheter des tokens**.  
+- Un système de **vente de tokens entre utilisateurs** sera mis en place.  
+
+---
+
+## 🛠️ Technologies utilisées  
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Formik](https://img.shields.io/badge/Formik-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Yup](https://img.shields.io/badge/Yup-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Looping](https://img.shields.io/badge/Looping-00A6FB?style=for-the-badge)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 # 3- Conception et maquettage du site
 
