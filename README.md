@@ -65,6 +65,8 @@ Les utilisateurs inscrits peuvent :
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
+---
+
 ## 3️⃣ Conception et maquettage du site  
 
 Avant de coder le site à proprement parler, il a fallu commencer par créer une **maquette** afin d'avoir une idée de son apparence finale.  
@@ -108,24 +110,33 @@ Pour les **formulaires** (inscription, connexion, etc.), nous avons choisi de le
 
 🚀 **Cette approche nous a permis d'avoir un site plus ergonomique et harmonisé !**  
 
-# 4- Création de la base de données
+---
+
+## 4️⃣ Création de la base de données
 
 Pour la gestion du back-end, il a fallu créer une base de données. Le point de départ de celle-ci est la création du MCD (Modèle Conceptuel de Données) que j'ai réalisé sur Looping, un logiciel de modélisation conceptuelle de données.
+
+### 🖼️ MCD - Modèle Conceptuel de Données
 
 ![mcd-green](https://github.com/cedric-chimot/Greenride/assets/106061524/aaff7300-07d4-4b4c-b52e-6c7570e7acb9)
 
 On peut voir sur l'image les différentes entités ainsi que les relations entre elles.
-De ce MCD, j'ai pour obtenir le MLD (Modèle Logique de Données). Les entités sont devenues des tables et sur l'image on peut voir que les relations ont créé des "clés étrangères", faisant référence aux identifiants des autres tables auxquelles elles sont liées.
+À partir de ce MCD, j'ai pu obtenir le MLD (Modèle Logique de Données). Les entités sont devenues des tables, et les relations ont généré des clés étrangères, faisant référence aux identifiants des autres tables auxquelles elles sont liées.
+
+### 🖼️ MLD - Modèle Logique de Données
 
 ![mld-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4f81fd3b-9db0-4681-bd01-bd7ce583141e)
 
-De la même manière que la maquette ces MCD/MLD ont servi de base à la création de notre base de données. Au fur et à mesure de nos réflexions et de nos besoins, celle-ci a fortement évolué et d'autres tables sont venues s'ajouter au modèle de base.
+Tout comme la maquette, ces MCD/MLD ont servi de base pour la création de notre base de données.
+Au fur et à mesure du développement et des besoins du projet, la structure a évolué, ajoutant de nouvelles tables et ajustant certaines relations.
 
-Voici en image la version finale de la base de données : 
+### 🖼️ Version finale de la base de données
 
 ![BDD-green](https://github.com/cedric-chimot/Greenride/assets/106061524/146fe70c-e3c6-4c6c-9e22-26e92889fc8f)
 
-Ceci est le rendu du modèle obtenu avec PhpMyadmin. On peut voir les nombreux ajouts proposés, le tout ayant été bien entendu réfléchi en fonction du cahier des charges. Par exemple, le système d'annonces pour acheter des tokens a donné lieu à la création d'une table dédiée.
+Voici le rendu du modèle obtenu avec PhpMyAdmin. On peut observer les ajouts effectués pour répondre au cahier des charges.
+
+💡 _Exemple : le système d'annonces pour acheter des tokens a nécessité la création d'une table dédiée._
 
 # 5- La création du site
 
