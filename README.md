@@ -7,7 +7,7 @@
 <p align="justify">
 À la suite de ma formation de développeur web, j’ai choisi de rejoindre un dispositif nommé <strong>Incubateur du numérique</strong>.  
 Celui-ci permet de mettre en application ce qui a été vu en formation à travers des mises en situation en appliquant les compétences acquises en formation grâce à des projets concrets.  
-J’ai donc intégré une équipe **Agile** pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.  
+J’ai donc intégré une équipe <strong>Agile</strong> pour parfaire mes connaissances et gagner en expérience, tout en travaillant dans un environnement semblable au monde de l’entreprise.  
 </p>
 
 ### 🎯 1.2 Les missions  
