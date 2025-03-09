@@ -174,40 +174,45 @@ Le **header** affiche l’identité de la personne connectée.
   - Le nombre d’**utilisateurs inscrits**,  
   - Les **alertes** et **messages**,  
   - Les **statistiques dynamiques**, qui évoluent en fonction des mises à jour de la base de données.
-  - 
-# _5.2 Exemple de tâches effectuées_
 
-J'ai participé à la création de différents formulaires, insription connexion etc... 
+### 🔹 5.2 Exemple de tâches effectuées  
 
-![inscription1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3869910e-6db1-498c-9d1e-67494eab5e81)
+J'ai participé à la création de différents **formulaires**, notamment pour l'**inscription**, la **connexion**, ainsi que le **formulaire de contact**.  
 
-![login-green](https://github.com/cedric-chimot/Greenride/assets/106061524/fb5b2081-ca5a-4648-b108-3bd125dc7f3d)
+📸 **Aperçu des formulaires :**  
+![inscription1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3869910e-6db1-498c-9d1e-67494eab5e81)  
+![login-green](https://github.com/cedric-chimot/Greenride/assets/106061524/fb5b2081-ca5a-4648-b108-3bd125dc7f3d)  
+![contact-green](https://github.com/cedric-chimot/Greenride/assets/106061524/b95086af-7275-4097-9ce7-8e0cf2cc54cc)  
 
-![contact-green](https://github.com/cedric-chimot/Greenride/assets/106061524/b95086af-7275-4097-9ce7-8e0cf2cc54cc)
+---
 
-Dans le cahier des charges, il nous était demandé de créer un sytème d'échange de tokens. Pour cela, j'ai eu l'idée de mettre en place un système d'annonce achat/vente
-pour que les utilisateurs puissent poster des annonces ou réaliser des transactions. Un de mes camarades a par la suite relié le tout à Stripe pour la validation
-des transactions.
+#### 💰 Système d’échange de tokens  
 
-La page d'ajout se présente comme suit : 
+Dans le **cahier des charges**, il nous était demandé de créer un **système d’échange de tokens**.  
+J'ai proposé l'idée de mettre en place un **système d’annonces** permettant aux utilisateurs de **poster des offres d’achat ou de vente** de tokens.  
 
-![annonces-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1a07fbee-3a1f-416d-8607-2b1b56a44950)
+Un de mes camarades a ensuite intégré **Stripe**, une API permettant la **validation des transactions**.  
 
-Il y a un formulaire pour ajouter les annonces ainsi qu'un récapitulatif des annonces de l'utilisateur en cours. Le système est paramétré de façon à ce qu'on
-ne puisse pas poster d'annonce si l'on a pas assez de tokens. On est parti du principe que 10 tokens valaient 1 euro, le calcul du montant se fait automatiquement
-et l'annonce s'affiche dès la validation.
+📸 **Aperçu de la page d’ajout d’annonces :**  
+![annonces-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1a07fbee-3a1f-416d-8607-2b1b56a44950)  
 
-Toutes les annonces peuvent être retrouvées sur la page dédiée, on ne trouve évidemment que les annonces des autres utilisateurs, pas les nôtres.
+- Un **formulaire** permet d’**ajouter une annonce**.  
+- Un **récapitulatif** affiche les annonces de l’utilisateur en cours.  
+- Il est **impossible** de publier une annonce si l’on **ne possède pas assez de tokens**.  
+- Le prix est calculé automatiquement, en prenant comme référence : **10 tokens = 1€**.  
+- L’annonce est immédiatement affichée après validation.  
 
-Le récapitulatif des annonces : 
+📸 **Aperçu du récapitulatif des annonces :**  
+![annonces1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a5f81542-24e5-4d39-aa8b-639164cef4a1)  
 
-![annonces1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a5f81542-24e5-4d39-aa8b-639164cef4a1)
+🔹 Sur la **page dédiée aux annonces**, chaque utilisateur peut **voir les annonces des autres**, mais **pas les siennes**.  
 
-Lorsque l'on souhaite acheter des tokens, un pop-up apparait sur l'écran afin de valider ou non la transaction. Celle-ci est liée à Stripe, une API qui traite les paiements en ligne.
+📸 **Aperçu du pop-up de validation de transaction :**  
+![annonces2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6d6003db-d7c8-455d-901e-3b4e7932bd2b)  
 
-![annonces2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/6d6003db-d7c8-455d-901e-3b4e7932bd2b)
-
-Les tokens sont directement crédités lors de la validation de la transaction.
+- Lorsqu’un utilisateur souhaite acheter des tokens, un **pop-up** apparaît pour **confirmer ou annuler** la transaction.  
+- Cette transaction est gérée via **Stripe**, qui s’occupe du **paiement sécurisé** en ligne.  
+- Une fois la transaction validée, les **tokens sont immédiatement crédités** sur le compte de l’utilisateur.
 
 # _5.3 Autres pages du site_
 
