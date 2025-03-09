@@ -138,28 +138,43 @@ Voici le rendu du modèle obtenu avec PhpMyAdmin. On peut observer les ajouts ef
 
 💡 _Exemple : le système d'annonces pour acheter des tokens a nécessité la création d'une table dédiée._
 
-# 5- La création du site
+---
 
-# _5.1 Accueil et Dasboard administrateur_
+## 5️⃣ La création du site  
 
-Le site se présente comme sur les images qui suivent, les différentes tâches ont été partagées entre les membres de l'équipe. Il est proposé différentes vues selon que l'on soit simple utilisateur ou administrateur, on peut simplement être visiteur cependant, de nombreuses pages sont inaccessible si l'on est pas inscrit ou connecté.
+### 🔹 5.1 Accueil et Dashboard administrateur  
 
-_- La page d'accueil du site :_
- 
-![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)
-![accueil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a2097f88-50f0-4616-8776-c51aed835e04)
-![accueil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/8418eea0-5206-48f9-83b2-b887a99d4110)
+Le site se présente comme sur les images qui suivent. Les différentes tâches ont été partagées entre les membres de l'équipe.  
+Il existe plusieurs **vues** selon le type d'utilisateur :  
+- **Visiteur** : accès restreint, certaines pages sont inaccessibles sans inscription ou connexion.  
+- **Utilisateur inscrit** : accès aux fonctionnalités principales du site.  
+- **Administrateur** : accès aux outils de gestion et au tableau de bord.  
 
-_- Le tableau de bord :_
+---
 
-Au niveau du tableau de bord, j'ai créé une sidebar pour renvoyer aux différentes pages accessible pour le ou les administrateurs ainsi que le header
-qui affiche l'identité de la personne connectée.
+#### 🏠 La page d’accueil du site  
 
-Dès qu'un administrateur se connecte, il est envoyé sur cette page. Les blocs affichent les utilisateurs inscrits, les alertes ou encore les messages
-directement depuis la base de données. Il y a aussi des statistiques qui évoluent en direct suivant les MAJ de la BDD.
+📸 **Aperçu de la page d'accueil :**  
+![accueil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/63704da0-7e2f-4deb-a43f-5c2bd328d0ec)  
+![accueil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/a2097f88-50f0-4616-8776-c51aed835e04)  
+![accueil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/8418eea0-5206-48f9-83b2-b887a99d4110)  
 
-![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)
+---
 
+#### 📊 Le tableau de bord (Dashboard)  
+
+J'ai développé un **menu latéral (sidebar)** permettant d’accéder aux différentes pages réservées aux administrateurs.  
+Le **header** affiche l’identité de la personne connectée.  
+
+📸 **Aperçu du Dashboard :**  
+![dashboard-green](https://github.com/cedric-chimot/Greenride/assets/106061524/890668d5-652e-4bc6-a573-15323bf29a55)  
+
+- Dès qu'un **administrateur** se connecte, il est redirigé vers cette page.  
+- Les blocs affichent en **temps réel** :  
+  - Le nombre d’**utilisateurs inscrits**,  
+  - Les **alertes** et **messages**,  
+  - Les **statistiques dynamiques**, qui évoluent en fonction des mises à jour de la base de données.
+  - 
 # _5.2 Exemple de tâches effectuées_
 
 J'ai participé à la création de différents formulaires, insription connexion etc... 
