@@ -214,119 +214,127 @@ Un de mes camarades a ensuite intégré **Stripe**, une API permettant la **vali
 - Cette transaction est gérée via **Stripe**, qui s’occupe du **paiement sécurisé** en ligne.  
 - Une fois la transaction validée, les **tokens sont immédiatement crédités** sur le compte de l’utilisateur.
 
-# _5.3 Autres pages du site_
+D'accord, voici la mise en forme demandée :  
 
-_5.3.1 Pages utilisateurs_
+---
 
-Voici le rendu de différentes pages du site dans leur version finale :
+### 🔹5.3 Autres pages du site
 
-_- Page de profil de l'utilisateur connecté :_
+#### _5.3.1 Pages utilisateurs_  
 
-![profil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e6ff272d-a16c-44dd-a3e5-103a5a38a705)
+Voici le rendu de différentes pages du site dans leur version finale :  
 
-L'utilisateur dispose de plusieurs options, comme la modification de son profil, de son véhicule, le nombre de tokens à sa disposition ainsi qu'une liste exhaustive de ses trajets postés. Il peut tous les afficher en cliquant sur le bouton "voir plus".
+📸 **Page de profil de l'utilisateur connecté :**  
 
-_- Historique des trajets :_
+![profil1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e6ff272d-a16c-44dd-a3e5-103a5a38a705)  
 
-![trajet3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1812e0d3-1781-4fdb-9a99-ca34e7e16175)
+L'utilisateur dispose de plusieurs options, comme la modification de son profil, de son véhicule, le nombre de tokens à sa disposition ainsi qu'une liste exhaustive de ses trajets postés. Il peut tous les afficher en cliquant sur le bouton "voir plus".  
 
-Sur cette page, on affiche tous les trajets proposés par l'utilisateur ainsi que les réservations en attente de validation ou efectuées. Il peut aussi voir les réservations qu'il a fait sur les trajets des autres utilisateurs.
+📸 **Historique des trajets :**  
 
-_- Page de modification de profil :_
+![trajet3-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1812e0d3-1781-4fdb-9a99-ca34e7e16175)  
 
-![profil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/5e1fdbf7-08de-4e96-872b-01ed4e48b893)
+Sur cette page, on affiche tous les trajets proposés par l'utilisateur ainsi que les réservations en attente de validation ou effectuées. Il peut aussi voir les réservations qu'il a faites sur les trajets des autres utilisateurs.  
 
-L'utilisateur peut ici modifier ses informations personnelles.
+📸 -**Page de modification de profil :**  
 
-_- Proposition de trajet :_
+![profil-green](https://github.com/cedric-chimot/Greenride/assets/106061524/5e1fdbf7-08de-4e96-872b-01ed4e48b893)  
 
-![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)
+L'utilisateur peut ici modifier ses informations personnelles.  
 
-L'utilisateur propose ici un ou plusieurs trajets en indiquant différentes informations.
+📸 **Proposition de trajet :**  
 
-_- Page de présentation d'un trajet :_
+![trajet-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1b4cbf6d-7382-484c-b947-33039d17b4eb)  
 
-![trajet5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3c6b27c5-1ada-4c49-a594-667e25daaae8)
+L'utilisateur propose ici un ou plusieurs trajets en indiquant différentes informations.  
 
-L'utilisateur peut voir ici les différentes informations concernant un trajet. Il peut le réserver en appuyant sur le bouton, un pop-up apparait alors. En cliquant sur le nom de la personne qui a ajouté le trajet, il a accès au profil de cet utilisateur. Il peut aussi voir dans un encadré le kilométrage et l'itinéraire du trajet.
+📸 **Page de présentation d'un trajet :**  
 
-_- Pop-up de réservation :_
+![trajet5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/3c6b27c5-1ada-4c49-a594-667e25daaae8)  
 
-![trajet4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/7d382a2c-c807-42ed-a6d2-96288ff7ba7a)
+L'utilisateur peut voir ici les différentes informations concernant un trajet. Il peut le réserver en appuyant sur le bouton, un pop-up apparaît alors. En cliquant sur le nom de la personne qui a ajouté le trajet, il a accès au profil de cet utilisateur. Il peut aussi voir dans un encadré le kilométrage et l'itinéraire du trajet.  
 
-On peut voir ici le coût en tokens du trajet. Bien évidemment, si l'utilisateur ne possède pas suffisamment de tokens, le texte de validation évolue et il est impossible de confirmer sa réservation.
+📸 **Pop-up de réservation :** 
 
-_- Profil autre utilisateur :_
+![trajet4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/7d382a2c-c807-42ed-a6d2-96288ff7ba7a)  
 
-![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)
+On peut voir ici le coût en tokens du trajet. Bien évidemment, si l'utilisateur ne possède pas suffisamment de tokens, le texte de validation évolue et il est impossible de confirmer sa réservation.  
 
-On peut voir ici toute les informations d'un utilisateur. On peut lui envoyer un message, laisser un avis s'il on a partagé un trajet avec lui ou mème le signaler s'il y a eu un quelconque souci durant le trajet.
+📸 **Profil d'un autre utilisateur :** 
 
-_- Pop-up d'avis :_
+![profil2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/bb12c520-18b8-49a8-9e2a-b06984542ecb)  
 
-![profil4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1c7deb56-9639-4afc-be72-52a2b1d6d624)
+On peut voir ici toutes les informations d'un utilisateur. On peut lui envoyer un message, laisser un avis si l'on a partagé un trajet avec lui ou même le signaler s'il y a eu un quelconque souci durant le trajet.  
 
-_- Composant message :_
+📸 **Pop-up d'avis :**
 
-![profil5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4d4d052a-6c19-40f0-886d-14e85c6bc90a)
+![profil4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/1c7deb56-9639-4afc-be72-52a2b1d6d624)  
 
-On peut envoyer directement un message à l'utilisateur. Lorsqu'il le reçoit, une notification apparait au niveau de la petite cloche en haut à droite sur la navbar. Celle-ci indique toutes notifications reçues : réservations, achat, message etc...
+📸 **Composant message :**  
 
-_- Page d'alerte :_
+![profil5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4d4d052a-6c19-40f0-886d-14e85c6bc90a)  
 
-![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2fec4371-6e71-4359-978a-672362b49401)
+On peut envoyer directement un message à l'utilisateur. Lorsqu'il le reçoit, une notification apparaît au niveau de la petite cloche en haut à droite sur la navbar. Celle-ci indique toutes les notifications reçues : réservations, achats, messages, etc.  
 
-La page de signalement avec la possibilité de choisir la raison parmi une liste ou d'indiquer le motif soit même.
+📸 **Page d'alerte :**  
 
-_5.3.2 Pages Administrateurs_
+![signal-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2fec4371-6e71-4359-978a-672362b49401)  
 
-Voici quelques pages de la partie administrateur.
+La page de signalement avec la possibilité de choisir la raison parmi une liste ou d'indiquer le motif soi-même.  
 
-_- La liste des utilisateurs :_
+---
 
-![admin-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ac8f5f31-0540-4c4f-90e8-e384ba20ec1d)
+### _5.3.2 Pages Administrateurs_  
 
-L'admin peut voir le profil de l'utilisateur ou le supprimer.
+Voici quelques pages de la partie administrateur.  
 
-_- Le profil d'un utilisateur en vue admin :_
+📸 **La liste des utilisateurs :**  
 
-![admin1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2c35837b-c164-4313-82e3-84648e881b2e)
+![admin-green](https://github.com/cedric-chimot/Greenride/assets/106061524/ac8f5f31-0540-4c4f-90e8-e384ba20ec1d)  
 
-Toutes les informations de l'utilisateur s'affichent (informations personnelles, trajets etc...). L'admin peut le contacter directement par le chat, le bannir s'il y a lieu.
+L'admin peut voir le profil de l'utilisateur ou le supprimer.  
 
-_- La liste des trajets postés :_
+📸 **Le profil d'un utilisateur en vue admin :**  
 
-![admin5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e53e7283-d420-493c-8d7b-09ec1c9a8173)
+![admin1-green](https://github.com/cedric-chimot/Greenride/assets/106061524/2c35837b-c164-4313-82e3-84648e881b2e)  
 
-_- La vue d'un trajet :_
+Toutes les informations de l'utilisateur s'affichent (informations personnelles, trajets, etc.). L'admin peut le contacter directement par le chat, le bannir s'il y a lieu.  
 
-![admin2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/562387b8-c5dc-4004-98ba-9d753a170e59)
+📸 **La liste des trajets postés :**  
 
-Vue d'un trajet avec les avis éventuels sur le conducteur et toutes les informations concernant le trajet.
+![admin5-green](https://github.com/cedric-chimot/Greenride/assets/106061524/e53e7283-d420-493c-8d7b-09ec1c9a8173)  
 
-_- La vue d'une alerte :_
+📸 **La vue d'un trajet :**  
 
-![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)
+![admin2-green](https://github.com/cedric-chimot/Greenride/assets/106061524/562387b8-c5dc-4004-98ba-9d753a170e59)  
 
-L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affichées toutes les alertes antérieures s'il y en a.
+Vue d'un trajet avec les avis éventuels sur le conducteur et toutes les informations concernant le trajet.  
 
-_- Les statistiques :_
+📸 **La vue d'une alerte :**  
 
-![admin4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9318fc0e-bb98-48ca-8d3b-d50627241575)
+![admin6-green](https://github.com/cedric-chimot/Greenride/assets/106061524/339df35c-9020-469f-84b7-58679165ba94)  
 
-Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateurs, les tokens consommés. Celles-ci évoluent en direct en fonction des données de la base de données.
+L'admin peut ici avertir le conducteur faisant l'objet d'une alerte, il peut aussi le bannir temporairement ou définitivement. Sont également affichées toutes les alertes antérieures s'il y en a.  
 
-_- Le profil d'un admin_
+📸 **Les statistiques :**  
 
-![admin7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/450bd50d-4986-4b60-991f-b1349107c0f4)
+![admin4-green](https://github.com/cedric-chimot/Greenride/assets/106061524/9318fc0e-bb98-48ca-8d3b-d50627241575)  
 
-![admin8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/097f6498-810f-4453-8eff-4256e1e27821)
+Ici un récapitulatif statistique en ce qui concerne les trajets, les utilisateurs, les tokens consommés. Celles-ci évoluent en direct en fonction des données de la base de données.  
 
-La vue d'un profil admin, avec la possibilité de voir l'historique des échanges avec les utilisateurs et le formulaire en mode pop-up pour créer un nouvel administrateur.
+📸 **Le profil d'un admin :**  
 
-_5.3.3 Conclusions_
+![admin7-green](https://github.com/cedric-chimot/Greenride/assets/106061524/450bd50d-4986-4b60-991f-b1349107c0f4)  
 
-Ces différents exemples démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été faites de façon à coller au mieux aux demandes du cahier des charges. L'échange d'idée entre nous a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
+![admin8-green](https://github.com/cedric-chimot/Greenride/assets/106061524/097f6498-810f-4453-8eff-4256e1e27821)  
+
+La vue d'un profil admin, avec la possibilité de voir l'historique des échanges avec les utilisateurs et le formulaire en mode pop-up pour créer un nouvel administrateur.  
+
+---
+
+### _5.3.3 Conclusion_  
+
+Ces différents exemples démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été apportées afin de répondre au mieux aux exigences du cahier des charges. L'échange d'idées entre les membres de l'équipe a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
 
 # 6- Conclusion générale
 
