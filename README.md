@@ -69,9 +69,10 @@ Les utilisateurs inscrits peuvent :
 
 ## 3️⃣ Conception et maquettage du site  
 
-Avant de coder le site à proprement parler, il a fallu commencer par créer une **maquette** afin d'avoir une idée de son apparence finale.  
-Travaillant en **méthode Agile**, nous nous sommes concertés et ce sont les formateurs qui ont **validé ou non** nos idées de développement.  
-
+<p align="justify">
+Avant de coder le site à proprement parler, il a fallu commencer par créer une <strong>maquette</strong> afin d'avoir une idée de son apparence finale.  
+Travaillant en <strong>méthode Agile</strong>, nous nous sommes concertés et ce sont les formateurs qui ont <strong>validé ou non</strong> nos idées de développement.  
+</p>
 ## 🛠️ Outils utilisés  
 
 Pour concevoir la maquette et organiser les tâches, nous avons utilisé :  
@@ -120,15 +121,17 @@ Pour la gestion du back-end, il a fallu créer une base de données. Le point de
 
 ![mcd-green](https://github.com/cedric-chimot/Greenride/assets/106061524/aaff7300-07d4-4b4c-b52e-6c7570e7acb9)
 
-On peut voir sur l'image les différentes entités ainsi que les relations entre elles.
-À partir de ce MCD, j'ai pu obtenir le MLD (Modèle Logique de Données). Les entités sont devenues des tables, et les relations ont généré des clés étrangères, faisant référence aux identifiants des autres tables auxquelles elles sont liées.
+<p align="justify">
+On peut voir sur l'image les différentes entités ainsi que les relations entre elles. À partir de ce MCD, j'ai pu obtenir le MLD (Modèle Logique de Données). Les entités sont devenues des tables, et les relations ont généré des clés étrangères, faisant référence aux identifiants des autres tables auxquelles elles sont liées.
+</p>
 
 ### 🖼️ MLD - Modèle Logique de Données
 
 ![mld-green](https://github.com/cedric-chimot/Greenride/assets/106061524/4f81fd3b-9db0-4681-bd01-bd7ce583141e)
 
-Tout comme la maquette, ces MCD/MLD ont servi de base pour la création de notre base de données.
-Au fur et à mesure du développement et des besoins du projet, la structure a évolué, ajoutant de nouvelles tables et ajustant certaines relations.
+<p align="justify">
+Tout comme la maquette, ces MCD/MLD ont servi de base pour la création de notre base de données. Au fur et à mesure du développement et des besoins du projet, la structure a évolué, ajoutant de nouvelles tables et ajustant certaines relations.
+</p>
 
 ### 🖼️ Version finale de la base de données
 
