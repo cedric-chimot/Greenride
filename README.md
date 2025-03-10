@@ -336,7 +336,7 @@ La vue d'un profil admin, avec la possibilité de voir l'historique des échange
 
 Ces différents exemples démontrent les réflexions qui ont pu être faites tout au long du projet. De la maquette au rendu final, de nombreuses modifications et améliorations ont été apportées afin de répondre au mieux aux exigences du cahier des charges. L'échange d'idées entre les membres de l'équipe a permis de faire évoluer le projet dans le bon sens et de l'optimiser.
 
-# 6- Conclusion générale
+## 6️⃣ Conclusion générale
 
 L'incubateur fut pour moi une excellente expérience. Cela m'a permis de gagner en compétence et en assurance.
 J'ai aussi pu travailler en équipe dans de vraies conditions de travail. Par rapport à ma formation, le fait d'avoir pu échanger nos idées, de les confronter m'a conforté dans mon envie de poursuivre dans ce métier.
